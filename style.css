@@ -5,9 +5,6 @@ button, button:focus {
   outline: none !important;
   box-shadow: none !important;
 }
-a {
-  text-decoration: none !important
-}
 
 /* typography classes */
 .font-baloo {
@@ -61,6 +58,17 @@ a {
 
 .color-yellow-bg {
   background: #FFD289;
+}
+
+/* top sale template*/
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */
