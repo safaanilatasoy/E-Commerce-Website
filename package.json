@@ -1,0 +1,25 @@
+{
+  "name": "ecommerce-shopping",
+  "version": "1.0.0",
+  "description": "ecommerce shopping with PHP,Node.js, MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/style.scss style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safaanilatasoy/Ecommerce-website.git"
+  },
+  "author": "Safa Anıl Atasoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/safaanilatasoy/Ecommerce-website/issues"
+  },
+  "homepage": "https://github.com/safaanilatasoy/Ecommerce-website#readme",
+  "keywords": [
+    "ecommerce",
+    "mysql",
+    "php"
+  ]
+}
